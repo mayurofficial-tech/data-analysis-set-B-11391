@@ -8,7 +8,7 @@
 ![Power BI Dashboard](output/powerbi_dashboard.png)
 
 **Video Link (Google Drive):**
-[https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1xDb0zLuaU8ev9-WsMJdbJ4r8ZISj3skB/view?usp=drive_link)
+[[https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1xDb0zLuaU8ev9-WsMJdbJ4r8ZISj3skB/view?usp=drive_link)](https://drive.google.com/file/d/1ERo3CWiQKdN4bZhw-_GyeAoQ93tTGwUe/view?usp=drive_link)
 
 ## 1. Objective
 
@@ -91,7 +91,7 @@ The values match, with any differences due only to rounding.
 
 ## 10. Video
 
-Video URL: [https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1xDb0zLuaU8ev9-WsMJdbJ4r8ZISj3skB/view?usp=drive_link)
+Video URL: [[https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1xDb0zLuaU8ev9-WsMJdbJ4r8ZISj3skB/view?usp=drive_link)](https://drive.google.com/file/d/1ERo3CWiQKdN4bZhw-_GyeAoQ93tTGwUe/view?usp=drive_link)
 Duration: 12 minutes
 
 ## 11. Authorship
