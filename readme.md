@@ -4,6 +4,9 @@
 **Student ID:** 11391
 **Set:** Set A
 
+## Dashboard
+![Power BI Dashboard](output/powerbi_dashboard.png)
+
 ## 1. Objective
 
 Analyze the given data, clean duplicate records, calculate required metrics,
@@ -85,8 +88,8 @@ The values match, with any differences due only to rounding.
 
 ## 10. Video
 
-Video URL: __________________
-Duration: ______ minutes
+Video URL: 
+Duration: 12 minutes
 
 ## 11. Authorship
 
