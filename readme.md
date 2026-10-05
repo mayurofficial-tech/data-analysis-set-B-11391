@@ -1,99 +1,190 @@
-# Data Analysis Practical — Set A
+<div align="center">
 
-**Student Name:** Mayur Makwana
-**Student ID:** 11391
-**Set:** Set A
+# 📊 Data Analysis Practical — Set A
 
-## Dashboard
-![Power BI Dashboard](output/powerbi_dashboard.png)
+**Customer Support Ticket Analysis using Excel · SQL · Python · Power BI**
 
-**Video Link (Google Drive):**
-[[https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1xDb0zLuaU8ev9-WsMJdbJ4r8ZISj3skB/view?usp=drive_link)](https://drive.google.com/file/d/1ERo3CWiQKdN4bZhw-_GyeAoQ93tTGwUe/view?usp=drive_link)
+![Set](https://img.shields.io/badge/Set-A-blue)
+![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoftexcel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
+
+### 🎥 [▶️ Watch Video Walkthrough (12 min)](https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link)
+
+</div>
+
+---
+
+## 🖼️ Power BI Dashboard
+
+<div align="center">
+
+![Power BI Dashboard](outputs/powerbi_dashboard.png)
+
+</div>
+
+---
+
+## 👤 Student Details
+
+| Field | Details |
+|---|---|
+| **Name** | Mayur Makwana |
+| **Student ID** | 11391 |
+| **Set** | Set A |
+
+---
+
+## 📌 Table of Contents
+
+1. [Objective](#1-objective)
+2. [Business Questions](#2-business-questions)
+3. [Dataset](#3-dataset)
+4. [Cleaning & Metrics](#4-cleaning--metrics)
+5. [Tools Used](#5-tools-used)
+6. [Project Structure](#6-project-structure)
+7. [Setup & Run](#7-setup--run)
+8. [Findings](#8-findings)
+9. [Cross-tool Reconciliation](#9-cross-tool-reconciliation)
+10. [Video Walkthrough](#10-video-walkthrough)
+11. [Authorship](#11-authorship)
+
+---
 
 ## 1. Objective
 
-Analyze the given data, clean duplicate records, calculate required metrics,
-and answer the business questions using Excel, SQL, Python and Power BI.
+Analyze the given support ticket data, remove duplicate records, calculate the required metrics, and answer the business questions using **Excel, SQL, Python and Power BI**.
 
 ## 2. Business Questions
 
-1. Which support team should improve resolution performance?
-2. how does service quality vary by channel?
+1. ❓ Which support team should improve its resolution performance?
+2. ❓ How does service quality vary by channel?
 
 ## 3. Dataset
 
-- data/raw/tickets.csv — Fact data
-- data/raw/teams.csv — Lookup data
+| File | Type | Description |
+|---|---|---|
+| `data/raw/tickets.csv` | Fact data | Individual support tickets |
+| `data/raw/teams.csv` | Lookup data | Team details |
 
-Duplicate records were removed, leaving 12 clean records.
+> 🧹 Duplicate records were removed, leaving **12 clean records**.
 
 ## 4. Cleaning & Metrics
 
+**Cleaning steps**
 - Removed the exact duplicate row.
-- Joined data using team_id.
-- breach_flag = (resolution_hours > 24)
-- breach_rate = breach_flag_count / all records × 100
+- Joined both tables using `team_id`.
 
-## 5. Tools
+**Metrics**
 
-- Excel
-- MySQL 8.0
-- Python
-- pandas
-- matplotlib
-- Power BI
+| Metric | Definition |
+|---|---|
+| `breach_flag` | `resolution_hours > 24` |
+| `breach_rate` | `breach_flag_count / total records × 100` |
+
+## 5. Tools Used
+
+| Tool | Purpose |
+|---|---|
+| 📗 **Excel** | Pivot analysis |
+| 🐬 **MySQL 8.0** | Setup and queries |
+| 🐍 **Python** (pandas, matplotlib) | Analysis and charts |
+| 📊 **Power BI** | Interactive dashboard |
 
 ## 6. Project Structure
 
-- excel/ — Excel analysis
-- sql/ — SQL setup and queries
-- python/ — Python analysis
-- powerbi/ — Power BI dashboard
-- outputs/ — analysis results and charts
+```text
+.
+├── data/
+│   └── raw/
+│       ├── tickets.csv
+│       └── teams.csv
+├── excel/
+│   └── analysis.xlsx
+├── sql/
+│   ├── setup.sql
+│   └── queries.sql
+├── python/
+│   └── analysis.py
+├── powerbi/
+│   └── dashboard.pbix
+├── outputs/
+│   └── powerbi_dashboard.png
+├── requirements.txt
+└── README.md
+```
 
 ## 7. Setup & Run
 
-### SQL
+<details>
+<summary><b>🐬 SQL</b></summary>
+
 Run `sql/setup.sql` first, then `sql/queries.sql`.
 
-### Python
-Install packages:
+</details>
 
-`pip install -r requirements.txt`
+<details>
+<summary><b>🐍 Python</b></summary>
 
-Run from repository root:
+```bash
+pip install -r requirements.txt
+python python/analysis.py
+```
 
-`python python/analysis.py`
+Run from the repository root.
 
-### Excel
+</details>
+
+<details>
+<summary><b>📗 Excel</b></summary>
+
 Open `excel/analysis.xlsx`.
 
-### Power BI
+</details>
+
+<details>
+<summary><b>📊 Power BI</b></summary>
+
 Open `powerbi/dashboard.pbix` and update the CSV path if required.
+
+</details>
 
 ## 8. Findings
 
-- Finding 1: AppSupport and BillingHelp team improve resolution performance
-- Finding 2: Email is more suitable than phone calls or chat because data breaches are less likely to occur.
+| # | Finding |
+|---|---|
+| 1️⃣ | **AppSupport** and **BillingHelp** teams need to improve their resolution performance. |
+| 2️⃣ | **Email** is the most reliable channel — it has fewer SLA breaches than phone or chat. |
 
-Recommendation: Improve AppSupport and BillingHelp and prefer email more for Customer Support
+> ✅ **Recommendation:** Focus improvement efforts on AppSupport and BillingHelp, and encourage customers to use Email for support.
 
 ## 9. Cross-tool Reconciliation
 
-Aggregate checked: average resolution_hours
+**Aggregate checked:** Average `resolution_hours`
 
-Excel: 24  
-SQL: 24  
-Python: 24  
-Power BI: 24
+| Tool | Result |
+|---|---|
+| Excel | 24 |
+| SQL | 24 |
+| Python | 24 |
+| Power BI | 24 |
 
-The values match, with any differences due only to rounding.
+✔️ All values match; any difference is only due to rounding.
 
-## 10. Video
+## 10. Video Walkthrough
 
-Video URL: [[https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1xDb0zLuaU8ev9-WsMJdbJ4r8ZISj3skB/view?usp=drive_link)](https://drive.google.com/file/d/1ERo3CWiQKdN4bZhw-_GyeAoQ93tTGwUe/view?usp=drive_link)
-Duration: 12 minutes
+🎥 **[Watch the video on Google Drive](https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link)**
+⏱️ Duration: 12 minutes
 
 ## 11. Authorship
 
 All work in this repository is my own except where cited.
+
+---
+
+<div align="center">
+
+Made by **Mayur Makwana** (ID: 11391)
+
+</div>
