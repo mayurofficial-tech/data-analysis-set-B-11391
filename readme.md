@@ -10,7 +10,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
 
-### 🎥 [▶️ Watch Video Walkthrough (12 min)](https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link)
+### 🎥 [▶️ Watch Video Walkthrough (12 min)]([https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1ERo3CWiQKdN4bZhw-_GyeAoQ93tTGwUe/view?usp=drive_link))
 
 </div>
 
@@ -174,7 +174,7 @@ Open `powerbi/dashboard.pbix` and update the CSV path if required.
 
 ## 10. Video Walkthrough
 
-🎥 **[Watch the video on Google Drive](https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link)**
+🎥 **[Watch the video on Google Drive]([https://drive.google.com/file/d/1WTzt21a59AQPrQ0SNECbcdCrHaXNvWvP/view?usp=drive_link](https://drive.google.com/file/d/1ERo3CWiQKdN4bZhw-_GyeAoQ93tTGwUe/view?usp=drive_link))**
 ⏱️ Duration: 12 minutes
 
 ## 11. Authorship
