@@ -20,7 +20,7 @@
 
 <div align="center">
 
-![Power BI Dashboard](outputs/powerbi_dashboard.png)
+![Power BI Dashboard](output/powerbi_dashboard.png)
 
 </div>
 
