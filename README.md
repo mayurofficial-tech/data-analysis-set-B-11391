@@ -11,7 +11,7 @@
 ## 🧷 EXHIBIT A — The Dashboard
 
 <p align="center">
-  <img src="outputs/powerbi_dashboard.png" alt="Power BI Dashboard" width="100%" />
+  <img src="output/powerbi_dashboard.png" alt="Power BI Dashboard" width="100%" />
 </p>
 
 ---
